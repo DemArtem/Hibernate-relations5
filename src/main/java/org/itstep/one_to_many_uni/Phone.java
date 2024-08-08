@@ -1,4 +1,4 @@
-package org.itstep.one_to_many_unit;
+package org.itstep.one_to_many_uni;
 
 import lombok.Data;
 
@@ -18,7 +18,9 @@ public class Phone {
 
     private String number;
 
-    //private Subscriber subscriber;
+    @ManyToOne
+    @JoinColumn(name= "phone_id")
+    private Subscriber subscriber;
 
     @Override
     public String toString() {

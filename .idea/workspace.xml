@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c149618-98e5-4480-9e9e-4cfdc89870ef" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/PhoneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/Subscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/SubscriberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_bi/PassportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_bi/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/many_to_many_uni/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/many_to_many_uni/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/many_to_many_uni/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/many_to_many_uni/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/many_to_one_bi/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/itstep/many_to_one_bi/Post.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_bi/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_bi/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/aplication.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_uni/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/PhoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_uni/PhoneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_uni/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_unit/SubscriberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_many_uni/SubscriberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_uni/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_uni/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_uni/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_uni/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_unit/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/one_to_one_uni/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
     </list>
@@ -49,14 +55,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.itstep.one_to_one_unit" />
@@ -65,6 +71,9 @@
       <recent name="C:\Users\gk\Desktop\Hibernate-relations5\src\main\java\org\itstep\one_to_one_unit" />
       <recent name="C:\Users\gk\Desktop\Hibernate-relations5\src\main\java" />
       <recent name="C:\Users\gk\Desktop\Hibernate-relations5\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.itstep.many_to_many_uni" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723134729511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1723139474904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723139474904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

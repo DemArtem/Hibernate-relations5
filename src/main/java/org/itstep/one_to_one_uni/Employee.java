@@ -1,7 +1,7 @@
-package org.itstep.one_to_one_unit;
+package org.itstep.one_to_one_uni;
 
 import lombok.Data;
-import org.itstep.one_to_one_unit.Address;
+
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

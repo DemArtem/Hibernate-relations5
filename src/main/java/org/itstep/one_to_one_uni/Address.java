@@ -1,4 +1,4 @@
-package org.itstep.one_to_one_unit;
+package org.itstep.one_to_one_uni;
 
 import lombok.Data;
 

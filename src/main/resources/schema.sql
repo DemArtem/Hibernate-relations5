@@ -79,6 +79,22 @@ CREATE TABLE if not exists  subscriber (
                          PRIMARY KEY (id)
 );
 
+CREATE TABLE IF NOT EXISTS authors
+(
+    id   INT NOT NULL,
+    name VARCHAR(50),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS books
+(
+    id        INT NOT NULL,
+    author_id INT NOT NULL,
+    title     VARCHAR(50),
+    isbn      VARCHAR(50),
+    PRIMARY KEY (id)
+);
+
 --ALTER TABLE employee     ADD CONSTRAINT IF NOT EXISTS fk_employee_address FOREIGN KEY (address_id) REFERENCES address (id);
 --ALTER TABLE person     ADD CONSTRAINT IF NOT EXISTS fk_person_passport FOREIGN KEY (passport_id) REFERENCES passport (id);
 --ALTER TABLE books     ADD CONSTRAINT IF NOT EXISTS fk_books_authors FOREIGN KEY (author_id) REFERENCES artists (id);

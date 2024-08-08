@@ -1,9 +1,5 @@
-package org.itstep.one_to_one_unit;
+package org.itstep.one_to_one_uni;
 
-import org.itstep.one_to_one_unit.Address;
-import org.itstep.one_to_one_unit.AddressRepository;
-import org.itstep.one_to_one_unit.Employee;
-import org.itstep.one_to_one_unit.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
