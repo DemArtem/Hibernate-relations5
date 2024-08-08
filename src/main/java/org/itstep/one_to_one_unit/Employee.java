@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="employee")
 @NamedQuery(name = "Employee.findByCity", query = "select e from Employee e where e.address.city= ?1")
-@NamedQuery(name = "Employee.findByCity2", query = "select e from Employee e inner join Address a on where a.city = ?1")
+//@NamedQuery(name = "Employee.findByCity2", query = "select e from Employee e inner join Address a on where a.city = ?1")
 
 public class Employee {
     @Id

@@ -26,6 +26,7 @@ create table if not exists employee
     id         INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(50),
     last_name  VARCHAR(50),
+    age int,
     address_id INT NOT NULL,
     PRIMARY KEY (id)
 );
@@ -62,6 +63,20 @@ CREATE TABLE IF NOT EXISTS books
     title     VARCHAR(50),
     isbn      VARCHAR(50),
     PRIMARY KEY (id)
+);
+
+CREATE TABLE if not exists  phone (
+                         id int NOT NULL AUTO_INCREMENT,
+                         number varchar(45) NOT NULL,
+                         subscriber_id int DEFAULT NULL,
+                         PRIMARY KEY (id)
+);
+
+CREATE TABLE if not exists  subscriber (
+                         id int NOT NULL AUTO_INCREMENT,
+                         first_name varchar(45) NOT NULL,
+                         last_name varchar(64) NOT NULL,
+                         PRIMARY KEY (id)
 );
 
 --ALTER TABLE employee     ADD CONSTRAINT IF NOT EXISTS fk_employee_address FOREIGN KEY (address_id) REFERENCES address (id);

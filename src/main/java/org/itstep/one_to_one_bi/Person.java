@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "person")
+@Table(name = "person",uniqueConstraints=@UniqueConstraint(columnNames={"first_name", "last_name"}))
 public class Person {
     @Id
     @Column(name = "id")
